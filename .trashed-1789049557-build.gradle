@@ -1,0 +1,12 @@
+plugins { id 'com.android.application' }
+
+android { namespace 'com.example.countdown6months'; compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.example.countdown6months'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
